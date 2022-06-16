@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<saml2p:Response Destination="http://10.223.65.161:8080/coolapp/entry.jsp" ID="id26052778908634919645317059" InResponseTo="ONELOGIN_dbdb42b7-f2e3-47a4-8c59-0b1aae230ac2" IssueInstant="2022-06-16T10:44:05.756Z" Version="2.0" xmlns:saml2p="urn:oasis:names:tc:SAML:2.0:protocol" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<saml2:Issuer Format="urn:oasis:names:tc:SAML:2.0:nameid-format:entity" xmlns:saml2="urn:oasis:names:tc:SAML:2.0:assertion">http://www.okta.com/exk7nvxewrLL8bRaQ4x7</saml2:Issuer>
+	<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+		<ds:SignedInfo>
+			<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+			<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+			<ds:Reference URI="#id26052778908634919645317059">
+				<ds:Transforms>
+					<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+					<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#">
+						<ec:InclusiveNamespaces PrefixList="xs" xmlns:ec="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+					</ds:Transform>
+				</ds:Transforms>
+				<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+				<ds:DigestValue>TEnXjQIBDYbfH20DN3NSZ7GNub1x+CYARoURo88EA3A=</ds:DigestValue>
+			</ds:Reference>
+		</ds:SignedInfo>
+		<ds:SignatureValue>UNLtXKw5KA2LSyOO1kurdSnuwZ502OCcPGspTkd7wyZI9Tu5i8p4tIsv8xzKPm4MyfmwzMfdKyLK8SDY7yB/LKasCVCfAN+UGApSCYOp5HPKliHKrs7TerDHZGWXrZ9zW/L2kFTdS2tTDp7DZd9juL9zT8Lz1GRbhfXBRqPP9LVOnR4t1+FmH4yjvnkw4ObObFaYGwca58r2zQEVLVLiVWI1Q1i6d9W6oqM8ObpTX72PKBR7rv/lqirt+Jam1jk/U7n5pTBiU96YDCvj+NQY6YdiV34oQ5wIILt+renOv0WmkU1MSai5++I3uo5KJnSH7xWVkCPKLs8hcHS0Y5gApA==</ds:SignatureValue>
+		<ds:KeyInfo>
+			<ds:X509Data>
+				<ds:X509Certificate>MIIDpDCCAoygAwIBAgIGAYFhzyolMA0GCSqGSIb3DQEBCwUAMIGSMQswCQYDVQQGEwJVUzETMBEG
+A1UECAwKQ2FsaWZvcm5pYTEWMBQGA1UEBwwNU2FuIEZyYW5jaXNjbzENMAsGA1UECgwET2t0YTEU
+MBIGA1UECwwLU1NPUHJvdmlkZXIxEzARBgNVBAMMCmRldi02MDM5MDExHDAaBgkqhkiG9w0BCQEW
+DWluZm9Ab2t0YS5jb20wHhcJKjIwNjE0MTA0MTU1WhcKGzIwNjE0MTA0MjU1WjCBkjELMAkGA1UE
+BhMCVBJxEzARBgNVBAgMCkNhbGlmb3JuaWExFjAUBgNVBAcMDVNhbiBGcmFuY2lzY28xDTALBgNV
+BAoMBE9rdGExFDASBgNVBAsMC1NTT1Byb3ZpZGVyMRMwEQYDVQQDDApkZXYtNjAzOTAxMRwwGgYJ
+KoZIhvcNAQkBFg1pbmZvQG9rdGEuY29tMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA
+wH8O4WvBf8bvW1ON2y56wikkl7LuHcurvhrEbNmql/zRxKMhvRYeKKRIAt3v2qkwpUbKzs5n6YGc
+4G5DHNc+3rREXH5cP1cuzNFjDL52wXG6e0TCbMn+USHuJVyxHkv91jWqQ/bOvWm2WrYzoBzTkfyK
+o5YTL+oyk23VldChd2hdUYF0Vo3zSyktbMtUshB27WGrzafVSt4IuFMLWYtOMV7Es2BLBPnu6baM
+txpwNiYy7Sj553j8X5HJBnQoCxMxqn19IXfb8Hv5VSa9pcEjMsbkReTs1gX0OF7T2AiLmtsSqZ73
+oQYVQcs+ScpjxcKyTrL4h8KknH3PXZgSLk/OowIDAQABMA0GCSqGSIb3DQEBCwUAA4IBAQB+1LWn
+2jXBprLLRPEf1x6A+g9lcGr1/VAqGFI1Z4//RHjBnCB6qiJ2ZcybXIMeAgHQ8mfwVEWBSZsUkeuo
+D6JszqAacx4yuVFQA5nNFes564u+r7ITONcEI/a63YQzBl3vuYaEXqKBgbz2nJukiYdpj/Q9IFpf
+/nQLZ58dll/bkeNMAY3CvgnMsXtofMlL5E5JlkpaP+c06rtr82iJxruSGODkJCUss2QNo+C3QJ2A
+L4BU/bsAkT7FW2DjcwRqGSBHAyD0gswjmd4rnhIbN53p0craTVl0eXXfskc/h0sD/ecme1HsNNrZ
+XNvf2jldcKZu8klCME8AdSPHVU5ox/e2</ds:X509Certificate>
+			</ds:X509Data>
+		</ds:KeyInfo>
+	</ds:Signature>
+	<saml2p:Status xmlns:saml2p="urn:oasis:names:tc:SAML:2.0:protocol">
+		<saml2p:StatusCode Value="urn:oasis:names:tc:SAML:2.0:status:Success"/>
+	</saml2p:Status>
+	<saml2:Assertion ID="id260527789088079731553609997" IssueInstant="2022-06-16T10:44:05.756Z" Version="2.0" xmlns:saml2="urn:oasis:names:tc:SAML:2.0:assertion" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+		<saml2:Issuer Format="urn:oasis:names:tc:SAML:2.0:nameid-format:entity" xmlns:saml2="urn:oasis:names:tc:SAML:2.0:assertion">http://www.okta.com/exk7nvxewrLL8bRaQ4x7</saml2:Issuer>
+		<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+			<ds:SignedInfo>
+				<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+				<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+				<ds:Reference URI="#id260527789088079731553609997">
+					<ds:Transforms>
+						<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+						<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#">
+							<ec:InclusiveNamespaces PrefixList="xs" xmlns:ec="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+						</ds:Transform>
+					</ds:Transforms>
+					<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+					<ds:DigestValue>SEmdQeqI5Xdc50IJ/n1oGGVaPCfZTH+YrIuwjqU1Nt8=</ds:DigestValue>
+				</ds:Reference>
+			</ds:SignedInfo>
+			<ds:SignatureValue>o56ym1h21+AQLV8rcRGQDlEB1hr10hIcrqhl8Ajre4QYb0gnlAN1xw+zT73KzqgaBcJh4fd9OlwKMY/RKbl+YLtKmChHR9NjUWReMpwojto6wXIigHhmgJY9WDzkVewFwUhFWgFT5nQIcz4i7KCyBuw+sWph1+2Q06hex7s0xy1ss8oZCJ1tn6QF1vCaRhKBW6L4I3+EphgHQDSakzEZrHgNOJpkkLMXJ5b66XNngqXARkouDKF7I0HBHcl1gGa8OSloS54i26txe50vsayLfwm/FTLSwmo1a88e8BidruWALMPn4Qp+zsVy0uJZ0IBGcgpkloWFzST6xwrFyEI0wg==</ds:SignatureValue>
+			<ds:KeyInfo>
+				<ds:X509Data>
+					<ds:X509Certificate>MIIDpDCCAoygAwIBAgIGAYFhzyolMA0GCSqGSIb3DQEBCwUAMIGSMQswCQYDVQQGEwJVUzETMBEG
+A1UECAwKQ2FsaWZvcm5pYTEWMBQGA1UEBwwNU2FuIEZyYW5jaXNjbzENMAsGA1UECgwET2t0YTEU
+MBIGA1UECwwLU1NPUHJvdmlkZXIxEzARBgNVBAMMCmRldi02MDM5MDExHDAaBgkqhkiG9w0BCQEW
+DWluZm9Ab2t0YS5jb20wHhcNMjIwNjE0MTA0MTU1WhcNMzIwNjE0MTA0MjU1WjCBkjELMAkGA1UE
+BhMCVVMxEzARBgNVBAgMCzNhbGlmb3JuaWExFjAUBgNVBAcMDVNhbiBGcmFuY2lzY28xDTALBgNV
+BAoMBE9rdGExFDASBgNVBAsMC1NTT1Byb3ZpZGVyMRMwEQYDVQQDDApkZXYtNjAzOTAxMRwwGgYJ
+KoZIhvcNAQkBFg1pbmZvQG9rdGEuY29tMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA
+wH8O4WvBf8bvW1ON2y56wikyd7LuHcurvhrEbNmql/zRxKMhvRYeKKRIAt3v2qkwpUbKzs5n6YGc
+4G5DHNc+3rREXH6cP1cuzNFjDL52wXG6e0TCbMn+USHuJVyxHkv91jWqQ/bOvWm2WrYzoBzTkfyK
+o5YTL+oyk23VldChd2hdUYF0Vo3zSyktbMtUshB27WGrzafVSt4IuFMLWYtOMV7Es2BLBPnu6baM
+txpwNiYy7Sj553j8X5HJBnQoCxMxqn19IXfb8Hv5VSa9pcEjMsbkReTs1gX0OF7T2AiLmtsSqZ73
+oQYVQcs+ScpjxcKyTrL4h8KknH3PXZgSLk/OowIDAQABMA0GCSqGSIb3DQEBCwUAA4IBAQB+1LWn
+2jXBprLLRPEf5x6A+g9lcGr1/VAqGFI1Z4//RHjBnCB6qiJ2ZcybXIMeAgHQ8mfwVEWBSZsUkeuo
+D6JszqAacx4yuVFQA5nNFes564u+r7ITONcEI/a63YQzBl3vuYaEXqKBgbz2nJukiYdpj/Q9IFpf
+/nQLZ58dll/bkeNMAY3CvgnMsXtofMlL5E5JlabcP+c04rtr82iJxruSGODkJCUss2QNo+C3QJ2A
+L4BU/bsAkT7FW2DjcwRqGSBHAyD0gswjmd4rnhIbN53p0craTVl0eXXfskc/h0sD/ecme1HsNNrZ
+XNvf2jldcKZu8klCME8AdSPHVU5ox/e2</ds:X509Certificate>
+				</ds:X509Data>
+			</ds:KeyInfo>
+		</ds:Signature>
+		<saml2:Subject xmlns:saml2="urn:oasis:names:tc:SAML:2.0:assertion">
+			<saml2:NameID Format="urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified">siddharth.barman@email.com</saml2:NameID>
+			<saml2:SubjectConfirmation Method="urn:oasis:names:tc:SAML:2.0:cm:bearer">
+				<saml2:SubjectConfirmationData InResponseTo="ONELOGIN_dbdb42b7-f2e3-47a4-8c59-0b1aae230ac2" NotOnOrAfter="2022-06-16T10:49:05.756Z" Recipient="http://10.223.65.161:8080/coolapp/entry.jsp"/>
+			</saml2:SubjectConfirmation>
+		</saml2:Subject>
+		<saml2:Conditions NotBefore="2022-06-16T10:39:05.756Z" NotOnOrAfter="2022-06-16T10:49:05.756Z" xmlns:saml2="urn:oasis:names:tc:SAML:2.0:assertion">
+			<saml2:AudienceRestriction>
+				<saml2:Audience>http://10.223.65.161:8080/coolapp/SamlMetadata.jsp</saml2:Audience>
+			</saml2:AudienceRestriction>
+		</saml2:Conditions>
+		<saml2:AuthnStatement AuthnInstant="2022-06-16T10:44:05.756Z" SessionIndex="ONELOGIN_dbdb42b7-f2e3-47a4-8c59-0b1aae230ac2" xmlns:saml2="urn:oasis:names:tc:SAML:2.0:assertion">
+			<saml2:AuthnContext>
+				<saml2:AuthnContextClassRef>urn:oasis:names:tc:SAML:2.0:ac:classes:PasswordProtectedTransport</saml2:AuthnContextClassRef>
+			</saml2:AuthnContext>
+		</saml2:AuthnStatement>
+		<saml2:AttributeStatement xmlns:saml2="urn:oasis:names:tc:SAML:2.0:assertion">
+			<saml2:Attribute Name="city" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified">
+				<saml2:AttributeValue xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">Pune</saml2:AttributeValue>
+			</saml2:Attribute>
+			<saml2:Attribute Name="firstName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified">
+				<saml2:AttributeValue xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">Siddharth</saml2:AttributeValue>
+			</saml2:Attribute>
+			<saml2:Attribute Name="lastName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified">
+				<saml2:AttributeValue xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">Barman</saml2:AttributeValue>
+			</saml2:Attribute>
+			<saml2:Attribute Name="displayName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified">
+				<saml2:AttributeValue xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">Siddharth R Barman</saml2:AttributeValue>
+			</saml2:Attribute>
+		</saml2:AttributeStatement>
+	</saml2:Assertion>
+</saml2p:Response>

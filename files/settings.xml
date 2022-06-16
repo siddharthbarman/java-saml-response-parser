@@ -1,0 +1,15 @@
+<conf>
+	<namespaces>
+	   <ns prefix="saml2p" val="urn:oasis:names:tc:SAML:2.0:protocol" />
+	   <ns prefix="ds" val="http://www.w3.org/2000/09/xmldsig#" />
+	   <ns prefix="saml2" val="urn:oasis:names:tc:SAML:2.0:assertion" />
+	</namespaces>
+	<attributes>
+		<att name="loginId" xpath="saml2p:Response/saml2:Assertion/saml2:Subject/saml2:NameID" />
+		<att name="city" xpath="/saml2p:Response/saml2:Assertion/saml2:AttributeStatement/saml2:Attribute[@Name='city']/saml2:AttributeValue" />
+		<att name="firstName" xpath="/saml2p:Response/saml2:Assertion/saml2:AttributeStatement/saml2:Attribute[@Name='firstName']/saml2:AttributeValue" />
+		<att name="lastName" xpath="/saml2p:Response/saml2:Assertion/saml2:AttributeStatement/saml2:Attribute[@Name='lastName']/saml2:AttributeValue" />
+		<att name="displayName" xpath="/saml2p:Response/saml2:Assertion/saml2:AttributeStatement/saml2:Attribute[@Name='displayName']/saml2:AttributeValue" />
+	</attributes>
+</conf>
+
